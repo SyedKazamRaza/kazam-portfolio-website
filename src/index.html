@@ -21,34 +21,40 @@
 
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a style="margin-left: 2%;" class="navbar-brand" href="#">Kazim Raza</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <a class="navbar-brand myName" href="#">Kazim Raza</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarText" style="font-size: 20px; color: white; margin-left: 60%;">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#technology"  style="color: white;" >Technology</a>
-            </li> 
-            <li class="nav-item">
-              <a class="nav-link" href="#allprojects"  style="color: white;">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#accounts"  style="color: white;">Accounts</a>
-            </li>
-          </ul>
+        <div class="collapse navbar-collapse navitems" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#technology" style="color: white;">Technology</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#allprojects" style="color: white;">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#accounts" style="color: white;">Accounts</a>
+                </li>
+            </ul>
         </div>
-      </nav>
+    </nav>
 
-      <div id="top">
+    <div id="top">
         <div id="content">
             <h1>Kazim Raza</h1>
             <h2>Computer Geek - Full Stack Developer</h2>
             <br><br>
-            <button class="mybtn">Contact Me</button>
-         </div>
-          <img src="img\background.png" alt="background" height="560" width="560">
-      </div>
+            <button class="mybtn">
+                <a style="color: #00FF7F; text-decoration: none;"
+                    href="mailto:syedkazamraza20@gmail.com?subject = Your email subject&body = Hi Mr. Kazim Raza,  ">
+                    Contact Me
+                </a>
+            </button>
+        </div>
+        <img src="img\background.png" alt="background" height="560" width="560">
+    </div>
 
 
     <div id="technology">
@@ -64,10 +70,10 @@
                 alt="...">
             <img src="img\python.jpg" class="photo techRemaining" width="200" height="150" class="rounded float-right"
                 alt="...">
-            <img src="img\react.png" class="photo techRemaining abc addMargin" width="200" height="150" class="rounded float-right"
-                alt="...">
-            <img src="img\mongodb.jpg" class="photo techRemaining abc forth" width="200" height="150" class="rounded float-right"
-                alt="...">
+            <img src="img\react.png" class="photo techRemaining abc addMargin" width="200" height="150"
+                class="rounded float-right" alt="...">
+            <img src="img\mongodb.jpg" class="photo techRemaining abc forth" width="200" height="150"
+                class="rounded float-right" alt="...">
         </div>
         <br>
         <div>
@@ -75,8 +81,8 @@
                 alt="...">
             <img src="img\flask.jpg" class="photo techRemaining" width="200" height="150" class="rounded float-right"
                 alt="...">
-            <img src="img\express.jpg" class="photo techRemaining last" width="200" height="150" class="rounded float-right"
-                alt="...">
+            <img src="img\express.jpg" class="photo techRemaining last" width="200" height="150"
+                class="rounded float-right" alt="...">
         </div>
         <br>
         <div id="thirdLine">
@@ -87,8 +93,8 @@
         </div>
         <br>
         <div>
-            <img src="img\bootstrap.jpg" class="photo" id="techForth" width="200" height="150" class="rounded float-right"
-                alt="...">
+            <img src="img\bootstrap.jpg" class="photo" id="techForth" width="200" height="150"
+                class="rounded float-right" alt="...">
         </div>
 
     </div>
@@ -103,8 +109,7 @@
         <div>
             <div class="card leftProject"
                 style="background: linear-gradient(to right top, rgb(120, 84, 229), rgb(131, 175, 227));">
-                <img src="img\railway.jpg"
-                    class="card-img-top projectImage" height="300" width="300" alt="...">
+                <img src="img\railway.jpg" class="card-img-top projectImage" height="300" width="300" alt="...">
                 <div class="card-body">
                     <h3 class="card-title">Railway Managment System</h5>
                         <p class="card-text">Build a Railway managment system using Python Flask framework, AWS,
@@ -124,7 +129,6 @@
                         <a href="#" class="gitbtn btn btn-primary">See Github</a>
                 </div>
             </div>
-            <br><br><br><br>
             <div class="card leftProject"
                 style="background: linear-gradient(to right top, 	rgb(0, 255, 191), rgb(0, 255, 128));">
                 <img src="img\foodDelivery.jpg" height="300" width="300" class="card-img-top projectImage" alt="...">
@@ -141,116 +145,114 @@
                 <img src="img\magicMatching.jpg" height="300" width="300" class="card-img-top projectImage" alt="...">
                 <div class="card-body">
                     <h3 class="card-title">Magic Matching</h5>
-                        <p class="card-text">Build a Magic matching game using vanilla Javascript, Bootstrap, HTMl and CSS.</p>
+                        <p class="card-text">Build a Magic matching game using vanilla Javascript, Bootstrap, HTMl and
+                            CSS.</p>
                         <a href="#" class="gitbtn btn btn-primary">See Github</a>
                 </div>
             </div>
 
-            <br><br><br><br>
+            <div class="card leftProject"
+                style="background: linear-gradient(to right top, 	rgb(255, 204, 102), rgb(255, 212, 128));">
+                <img src="img\stutTheBox.jpg" height="300" width="300" class="card-img-top projectImage" alt="...">
+                <div class="card-body">
+                    <h3 class="card-title">Shut The Box</h5>
+                        <p class="card-text">Build a very interesting game called 'Shut the Box' using Python, SQL
+                            database, HTML and CSS.</p>
+                        <a href="#" class="gitbtn btn btn-primary">See Github</a>
+                </div>
+            </div>
+
+            <div class="card RightProject"
+                style="background: linear-gradient(to right top, 	#ffdb4d, rgb(255, 235, 153));">
+                <img src="img\ludo.jpg" height="300" width="300" class="card-img-top projectImage" alt="...">
+                <div class="card-body">
+                    <h3 class="card-title">Ludo Game</h5>
+                        <p class="card-text">Created a Ludo game using Vanilla Javascript and design its beautiful
+                            frontend using HTML and CSS only.</p>
+                        <a href="#" class="gitbtn btn btn-primary">See Github</a>
+                </div>
+            </div>
+
             <div>
                 <div class="card leftProject"
-                    style="background: linear-gradient(to right top, 	rgb(255, 204, 102), rgb(255, 212, 128));">
-                    <img src="img\stutTheBox.jpg" height="300" width="300" class="card-img-top projectImage" alt="...">
+                    style="background: linear-gradient(to right top, 	rgb(153, 255, 102), rgb(170, 255, 128));">
+                    <img src="img\cricket.jpg" height="300" width="300" class="card-img-top projectImage" alt="...">
                     <div class="card-body">
-                        <h3 class="card-title">Shut The Box</h5>
-                            <p class="card-text">Build a very interesting game called 'Shut the Box' using Python, SQL
-                                database, HTML and CSS.</p>
+                        <h3 class="card-title">Cricket Game</h5>
+                            <p class="card-text">Build a full-fledged console based Cricket game using C++ with
+                                functionalites like autoplay, toss, Scorecard etc.</p>
                             <a href="#" class="gitbtn btn btn-primary">See Github</a>
                     </div>
                 </div>
 
                 <div class="card RightProject"
-                    style="background: linear-gradient(to right top, 	#ffdb4d, rgb(255, 235, 153));">
-                    <img src="img\ludo.jpg" height="300" width="300" class="card-img-top projectImage" alt="...">
+                    style="background: linear-gradient(to right top, 	rgb(77, 166, 255), rgb(153, 204, 255));">
+                    <img src="img\TicTacToe.jpg" height="300" width="300" class="card-img-top projectImage" alt="...">
                     <div class="card-body">
-                        <h3 class="card-title">Ludo Game</h5>
-                            <p class="card-text">Created a Ludo game using Vanilla Javascript and design its beautiful
-                                frontend using HTML and CSS only.</p>
+                        <h3 class="card-title">Tic Tac Toe</h5>
+                            <p class="card-text">Created a Tic Tac Toe game using Python, Vanilla Javascript, HTML
+                                and CSS.</p>
                             <a href="#" class="gitbtn btn btn-primary">See Github</a>
                     </div>
                 </div>
-                </div3 <br><br><br><br>
-
-                <div>
-                    <div class="card leftProject"
-                        style="background: linear-gradient(to right top, 	rgb(153, 255, 102), rgb(170, 255, 128));">
-                        <img src="img\cricket.jpg" height="300" width="300" class="card-img-top projectImage" alt="...">
-                        <div class="card-body">
-                            <h3 class="card-title">Cricket Game</h5>
-                                <p class="card-text">Build a full-fledged console based Cricket game using C++ with
-                                    functionalites like autoplay, toss, Scorecard etc.</p>
-                                <a href="#" class="gitbtn btn btn-primary">See Github</a>
-                        </div>
-                    </div>
-
-                    <div class="card RightProject"
-                        style="background: linear-gradient(to right top, 	rgb(77, 166, 255), rgb(153, 204, 255));">
-                        <img src="img\TicTacToe.jpg" height="300" width="300" class="card-img-top projectImage" alt="...">
-                        <div class="card-body">
-                            <h3 class="card-title">Tic Tac Toe</h5>
-                                <p class="card-text">Created a Tic Tac Toe game using Python, Vanilla Javascript, HTML
-                                    and CSS.</p>
-                                <a href="#" class="gitbtn btn btn-primary">See Github</a>
-                        </div>
-                    </div>
-                </div>
-
             </div>
+
         </div>
+    </div>
 
-        <br><br>
-        <footer class="bg-dark  text-center text-white" id="accounts">
-            <!-- Grid container -->
-            <div class="container p-4 pb-0">
-                <!-- Section: Social media -->
-                <section class="mb-4">
-                    <!-- Facebook -->
-                    <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;"
-                        href="https://facebook.com/Syed Kazam Raza" role="button"><i class="fab fa-facebook-f"></i></a>
+    <br><br>
+    <footer class="bg-dark  text-center text-white" id="accounts">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;"
+                    href="https://facebook.com/syedkazam.raza.94" role="button"><i class="fab fa-facebook-f"></i></a>
 
-                    <!-- Twitter -->
-                    <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee;"
-                        href="https://twitter.com/iamKazamRaza" role="button"><i class="fab fa-twitter"></i></a>
+                <!-- Twitter -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee;"
+                    href="https://twitter.com/iamKazamRaza" role="button"><i class="fab fa-twitter"></i></a>
 
-                    <!-- Google -->
-                    <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39;" href="#!"
-                        role="button"><i class="fab fa-google"></i></a>
+                <!-- Google -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39;"
+                    href="https://mail.google.com" role="button"><i class="far fa-envelope"></i></a>
 
-                    <!-- Instagram -->
-                    <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac;"
-                        href="https://instragram.com/syed_kazam_raza" role="button"><i class="fab fa-instagram"></i></a>
+                <!-- Instagram -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac;"
+                    href="https://instragram.com/syed_kazam_raza" role="button"><i class="fab fa-instagram"></i></a>
 
-                    <!-- Linkedin -->
-                    <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca;"
-                        href="https://www.linkedin.com/in/kazam-raza-a824771a6/" role="button"><i
-                            class="fab fa-linkedin-in"></i></a>
-                    <!-- Github -->
-                    <a class="btn btn-primary btn-floating m-1" style="background-color: #333333;"
-                        href="https://github.com/SyedKazamRaza" role="button"><i class="fab fa-github"></i></a>
-                </section>
-                <!-- Section: Social media -->
-            </div>
-            <!-- Grid container -->
+                <!-- Linkedin -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca;"
+                    href="https://www.linkedin.com/in/kazam-raza-a824771a6/" role="button"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <!-- Github -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #333333;"
+                    href="https://github.com/SyedKazamRaza" role="button"><i class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
 
-            <!-- Copyright -->
-            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2); font-size: 17px;">
-                Contact Me @ these Platforms
-            </div>
-            <!-- Copyright -->
-        </footer>
-
-
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2); font-size: 17px;">
+            Contact Me @ these Platforms
+        </div>
+        <!-- Copyright -->
+    </footer>
 
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
