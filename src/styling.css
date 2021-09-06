@@ -217,8 +217,8 @@ img{
     #top img{
         height: 220px;
         width: 220px;
-        margin-left: 13%;
-        margin-top: 70%;
+        margin-left: 16%;
+        margin-top: 60%;
     }
 
     #technology h2{
@@ -232,25 +232,37 @@ img{
         width: 150px; 
         margin-left: 20%;
     }
+    .photo{
+        border-radius: 10px;
+    }
 
     #techFirst, #techSecond, #techThird, #techForth{
+        height: 50px;
+        width: 50px;
+    }
+   
+    #techFirst{
         margin-left: 10%;
-        height: 100px;
-        width: 100px;
+    }
+    
+    #techSecond{
+        margin-left:17%;
+    }
+    
+    #techThird{
+        margin-left:28%;
+    }
+    #techForth{
+        margin-left:37%;
+    }
+    
+    .techRemaining{
+        margin-left: 1%;
     }
 
     .techRemaining{
-        height: 100px;
-        width: 100px;
-    }
-
-    .addMargin{
-        margin-top: 7%;
-        margin-left: 10%;
-
-    }
-    .last{
-        display: none;
+        height: 50px;
+        width: 50px;
     }
 
     #projects h2{
@@ -263,14 +275,13 @@ img{
     #secondLine{
         color: red; 
         width: 150px; 
-        margin-left: 20%;
     }
    
     .leftProject{
         width: 17rem; 
         text-align: center;
         display: inline-block; 
-        margin-left: 10%; 
+        margin-left: 12%; 
         border-radius: 10px;
         margin-top: 4%;
         margin-bottom: 3%;
@@ -279,7 +290,7 @@ img{
         width: 17rem; 
         text-align: center; 
         display: inline-block; 
-        margin-left: 10%; 
+        margin-left: 12%; 
         border-radius: 10px;
         margin-top: 4%;
         margin-bottom: 3%;
