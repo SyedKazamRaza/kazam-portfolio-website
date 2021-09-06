@@ -196,6 +196,7 @@ img{
     #content h1{
         font-size: 40px;
         font-weight: bold;
+        margin-top: 4%;
     }
     .mybtn {
         -webkit-border-radius: 30;
@@ -237,8 +238,8 @@ img{
     }
 
     #techFirst, #techSecond, #techThird, #techForth{
-        height: 60px;
-        width: 60px;
+        height: 70px;
+        width: 70px;
     }
    
     #techFirst{
@@ -261,8 +262,8 @@ img{
     }
 
     .techRemaining{
-        height: 50px;
-        width: 50px;
+        height: 70px;
+        width: 70px;
     }
 
     #projects h2{
