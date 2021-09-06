@@ -120,7 +120,8 @@ img{
   }
   
   .mybtn:hover {
-    background: #ffffff;
+    color: #ffffff;
+    background: black;    
     text-decoration: none;
   }
 
@@ -201,10 +202,10 @@ img{
     .mybtn {
         -webkit-border-radius: 30;
         -moz-border-radius: 30;
-        border-radius: 10px;
+        border-radius: 20px;
         font-family: Arial;
         color: #00FF7F;
-        font-size: 14px;
+        font-size: 17px;
         background: #ffffff;
         /* padding: 10px 20px 10px 20px; */
         border: solid #000000 1px;
@@ -212,7 +213,8 @@ img{
       }
       
       .mybtn:hover {
-        background: #ffffff;
+        color: #ffffff;
+        background: black;
         text-decoration: none;
       }
     #top img{
