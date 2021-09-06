@@ -279,19 +279,19 @@ img{
     }
    
     .leftProject{
-        width: 17rem; 
+        width: 20rem; 
         text-align: center;
         display: inline-block; 
-        margin-left: 12%; 
+        margin-left: 10%; 
         border-radius: 10px;
         margin-top: 4%;
         margin-bottom: 3%;
     }
     .RightProject{
-        width: 17rem; 
+        width: 20rem; 
         text-align: center; 
         display: inline-block; 
-        margin-left: 12%; 
+        margin-left: 10%; 
         border-radius: 10px;
         margin-top: 4%;
         margin-bottom: 3%;
